@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
@@ -14,6 +15,39 @@
     <div class="wrapper">
         <!-- =====HEADER-START===== -->
         <header class="header">
+          <div class="header_top__container container">
+            <div class="laguage_box">
+                <select class="laguage" name="laguage" >
+                    <option value="EN">EN</option>
+                    <option value="UZ">UZ</option>
+                    <option value="RU">RU</option>
+                </select>
+                <select class="valyuta" name="valyuta" >
+                    <option value="USD">USD</option>
+                    <option value="UZS">UZS</option>
+                    <option value="RUB">RUB</option>
+                </select>
+            </div>
+            <div class="links">
+                <div class="user_box">
+                    <a class="profile__link" href="#"><span class="material-symbols-outlined">
+                    account_circle
+                    </span><span class="profile">My profile</span></a>
+                </div>
+                <div class="shop_box"><a class="shop_link" href="#">
+                    <span class="material-symbols-outlined shop__num">
+                        shopping_cart
+                    </span>
+                    <span class="price__item">0</span>
+                </a>
+            </div>
+            <div class="price__box"><span class="top__price">$0.00</span><span class="material-symbols-outlined">
+                search
+                </span></div>
+            </div>
+
+
+          </div>
 
         </header>
         <!-- =====HEADER-END===== -->
