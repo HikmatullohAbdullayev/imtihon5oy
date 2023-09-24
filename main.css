@@ -569,3 +569,88 @@ letter-spacing: 0.5px;
 
 /* product  */
 
+/* =====SERVICE-START===== */
+
+.service {
+    margin-top: 100px;
+
+
+}
+.service__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.service__box {
+    text-align: center;
+}
+
+.service__title {
+    text-align: center;
+    color: #22262A;
+font-size: 27px;
+font-weight: 500;
+padding-top: 50px;
+}
+.icon1{
+    width: 100px;
+}
+.icon2{
+    width: 68px;
+}
+.icon3{
+    width: 70px;
+}
+@media (max-width:870px) {
+    .service__title {
+        text-align: center;
+        color: #22262A;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 50px;
+    }
+    .icon1{
+        width: 80px;
+    }
+    .icon2{
+        width: 48px;
+    }
+    .icon3{
+        width: 50px;
+    }
+}
+
+
+@media (max-width:670px){
+    
+    .service__container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items:center;
+    
+    }
+}
+
+
+/* =====SERVICE-END===== */
+
+
+
+/* =====FOOTER-START===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
