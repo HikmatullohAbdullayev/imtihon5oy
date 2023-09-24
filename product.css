@@ -221,13 +221,25 @@ font-weight: 500;
 .hero {
 }
 .products {
+    margin-top: 50px;
 }
 .container {
 }
 .product__box {
 display: flex;
 justify-content: space-between;
-align-items:center
+align-items:center;
+
+}
+
+.line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #F6F7F8;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
 }
 .product__img_box {
     display: flex;
@@ -240,15 +252,25 @@ align-items:center
 
 }
 .clear_btn {
+
+    margin-right: -10px;
+    background-color:#FFF7F8;
+    border: 1px solid #FF2740;
+    outline: none;
+    border-radius:50%;
+    color:#FF2740;
+    
 }
 .img_box {
+    width: 100%;
 }
 .product_name {
-    padding-bottom: 10px;
-    color: #262626;
-font-size: 18px;
-font-weight: 400;
-    max-width: 170px;
+    color: #22262A;
+font-size: 20px;
+font-weight: 700;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
 }
 .product_content {
     display: flex;
@@ -260,58 +282,86 @@ gap: 50px;
 }
 .total_title {
     color: #22262A;
-font-family: Poppins;
 font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
 }
 .total_price {
-    padding-top: 70px;
+    margin-top: 70px;
+    padding: 8px 10px;
 }
 .product_calc {
 }
 .calc_title {
     color: #22262A;
-font-family: Poppins;
 font-size: 20px;
-font-weight: 500;
 }
 .calc_box {
-    padding-top: 70px;
+    display: flex;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 70px;
+    background-color:#F6F7F8;
 }
 .minus {
+    border:transparent;
+    background-color:transparent;
+    outline: none;
+    color:#33A0FF;
+    font-size: 22px;
 }
 .count {
+    color: #262626;
+font-size: 18px;
+font-weight: 400;
 }
 .plus {
+    border:transparent;
+    background-color:transparent;
+    outline: none;
+    color:#33A0FF;
+    font-size: 22px;
 }
 .product_price {
 }
 .price_title {
     color: #22262A;
-font-family: Poppins;
 font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
 }
 .unit_price {
-    padding-top: 70px;
+    padding: 8px 10px;
+    margin-top: 70px;
     
 }
 
 
 @media ( max-width:690px) {
+.product_img{
+    width: 220px;
 
+}
     .product__box{
+        gap: 30px;
         display: flex;
         flex-direction: column;
         align-items:center;
         
     }
 }
+@media ( max-width:450px){
+    .product_content{
+        gap: 10px;
+        font-size: 18px;
+    }
+.total_title{
+    font-size: 18px;
+}
+.calc_title{
+    font-size: 18px;
+}
 
+.price_title{
+    font-size: 18px;
+}
+}
 
 
 
